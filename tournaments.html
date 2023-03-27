@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>MTG C&T</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+<body class="bg3">
+    <nav>
+        <div class="nav-left">
+            <h1 class="nav-tittle">MTG C&T</h1>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a class="nav-btn" href="index.html">Home</a></li>
+                <li><a class="nav-btn" href="cards.html">Cards</a></li>
+                <li><a class="nav-btn" href="tournaments.html">Tournaments</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Create Tournament</h1>
+    <form>
+        <label for="nombre">Name:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="fecha">Date:</label>
+        <input type="date" id="fecha" name="fecha"><br>
+
+        <label for="ubicacion">Location:</label>
+        <input type="text" id="ubicacion" name="ubicacion"><br>
+
+        <input type="submit" value="Crear">
+    </form>
+    <h1>Tournaments</h1>
+        <ul id="torneos">
+            <li>Torneo MODERN - Date: 27/03/2023 - Location: Madrid</li>
+            <li>Torneo COMMANDER - Date: 10/05/2023 - Location: Madrid</li>
+            <li>Torneo PIONEER - Date: 03/08/2023 - Location: Barcelona</li>
+        </ul>
+    <footer>
+        <div class="footer-tittle">
+            <p>MTG C&T &copy; 2023</p>
+        </div>
+        
+    </footer>
+</body>
+</html>
